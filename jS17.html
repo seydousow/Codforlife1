@@ -1,0 +1,60 @@
+<script>
+class fnfcharacter{
+    constructor(name,power,health,specialAttack,level){
+        this.name = ron;
+        this.power = Memes;
+        this.health = 100;
+        this.specialAttack = megacoolness;
+        this.level = 100;
+    }
+    dodge(opponent, attack){
+        console.log(`${this.name} dodged ${opponent}s ${attack}`);
+    }
+        powerUp(){
+        if(this.level >=96){
+            this.level = 100;
+            console.log(`${this.name} power level is full! special Available`);
+        }else{
+            this.level -= 4;
+            console.log(`${this.name} power level is now at ${this.level}%`);
+        }
+    }
+    special(){
+        if(this.level == 100){
+            this.level - 40;
+            console.log(`${this.name} has unleashed ${this.specialAttack}`);
+        }else{
+            console.log(`${this.name} cant do that right now, your power level is at ${this.level}%`);
+        }
+    }
+}
+let ron = new FnfCharacter("ron","Memes","megacoolness", 100,100);
+console.log(ron.name);
+ron.dodge();
+ron.powerUp();
+ron.special();
+
+
+MemeBeam(opponent);{
+        opponent.health -= 20;
+        console.log(`ron delivers a MemeBeam landing on ${opponent.name}: **** ${opponent.name}'s HEALTH: ${opponent.health}% ****`);
+    }
+    MemePunch(opponent);{
+        opponent.health -= 10;
+        console.log(`ron gives out a Meme Punch!  **** ${opponent.name}'s HEALTH: ${opponent.health}% ****`);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
